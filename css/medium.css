@@ -1,0 +1,40 @@
+header .hero-img .hero-text p {
+    font-size: 20px;
+}
+header .hero-img .hero-text h1 {
+    font-size: 42px;
+}
+
+#prices .price-info {
+    font-style: 23px;
+}
+
+#prices .price-wrap {
+    width: 90%;
+}
+
+#team .card-text {
+    font-style: 14px;
+    font-size: 19px;
+}
+
+#team .card-title {
+    font-size: 24px;
+}
+
+#team i {
+    font-size: 24px;
+}
+
+@media (min-width: 803px) {
+    #team i {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    #team .card-text {
+        font-size: 13px;
+    }
+    #team .card-title {
+        font-size: 16px;
+    }
+}
