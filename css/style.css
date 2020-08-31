@@ -143,21 +143,21 @@ header .hero-img .fa-chevron-down {
     margin: 0;
 }
 
-#aboutme i {
+#aboutus i {
     margin-top: 20px;
     font-size: 30px;
 }
 
-#aboutme h3 {
+#aboutus h3 {
     text-transform: uppercase;
     font-size: 18px;
 }
 
-#aboutme p {
+#aboutus p {
     font-size: 14px;
 }
 
-#aboutme .jumbotron .wrapper .aboutme-hover {
+#aboutus .jumbotron .wrapper .aboutus-hover {
     transition: color .3s;
     --animate-delay: 0.5s;
 }
@@ -167,16 +167,16 @@ header .hero-img .fa-chevron-down {
     color: black;
 }
 
-.row .aboutme-hover:hover {
+.row .aboutus-hover:hover {
     color: #039dff;
     transition: color .3s;
 }
 
-#aboutme-hero {
+#aboutus-hero {
     color: #ddd;
 }
 
-#aboutme-hero .jumbotron {
+#aboutus-hero .jumbotron {
     position: relative;
     padding: 60px 0;
     background-image: url('../img/processor-2217771_1280.jpg');
@@ -185,19 +185,19 @@ header .hero-img .fa-chevron-down {
     z-index: 0;
 }
 
-#aboutme-hero .jumbotron h2 {
+#aboutus-hero .jumbotron h2 {
     font-size: 32px;
 }
 
-#aboutme-hero .jumbotron i {
+#aboutus-hero .jumbotron i {
     font-size: 32px;
 }
 
-#aboutme-hero .jumbotron p {
+#aboutus-hero .jumbotron p {
     font-size: 14px;
 }
 
-#aboutme-hero .about-shadow {
+#aboutus-hero .about-shadow {
     position: absolute;
     top: 0;
     width: 100%;
@@ -206,31 +206,31 @@ header .hero-img .fa-chevron-down {
     z-index: -10;
 }
 
-#aboutme-hero .about-hero-item {
+#aboutus-hero .about-hero-item {
     margin: 10px 0;
 
 }
 
 
 /* Section PORTFOLIA */
-#education h2 {
+#products h2 {
     text-align: center;
     text-transform: uppercase;
 }
 
-#education .carousel-item {
+#products .carousel-item {
     position: relative;
     height: 600px; 
 }
 
-#education .carousel-item img {
+#products .carousel-item img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#education .carousel-caption {
+#products .carousel-caption {
     position: absolute;
     padding: 40px 0;
     left: 0;
@@ -238,7 +238,7 @@ header .hero-img .fa-chevron-down {
     background-color: rgba(0, 0, 0, .8);
 }
 
-#education .carousel-indicators {
+#products .carousel-indicators {
     padding-bottom: 20px;
 }
 
@@ -369,7 +369,7 @@ header .hero-img .fa-chevron-down {
 
 #contact .jumbotron {
         position: relative;
-        background-image: url(../img/contact-hero.jpg);
+        background-image: url('../img/city-1280.jpg');
         background-position: bottom;
         background-attachment: fixed;
         background-size: cover;
@@ -377,13 +377,14 @@ header .hero-img .fa-chevron-down {
 }
 
 #contact .jumbotron h2 {
-        color: #fff;
-        font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
 }
 
 #contact .jumbotron .underline
 {
-    background-color: #ccc;
+    background-color: #039dff;
 }
 
 
@@ -461,7 +462,7 @@ header .hero-img .fa-chevron-down {
 }
 
 @media (min-width: 414px) {
-    #aboutme-hero .jumbotron {
+    #aboutus-hero .jumbotron {
         padding: 80px 0;
     }
 }
@@ -474,16 +475,17 @@ header .hero-img .fa-chevron-down {
         font-size: 35px;
     }
 
-    #aboutme-hero .jumbotron h2 {
+    #aboutus-hero .jumbotron h2 {
         font-size: 36px;
     }
 
-    #aboutme-hero .jumbotron h3 {
+    #aboutus-hero .jumbotron h3 {
         font-size: 32px;
     }
     
-    #aboutme-hero .jumbotron p {
+    #aboutus-hero .jumbotron p {
         font-size: 18px;
     }
 }
 
+ 
